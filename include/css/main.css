@@ -1,0 +1,26 @@
+.bdmap path {
+  fill: royalblue;
+  stroke: white;
+  stroke-width: 3px;
+  transition: fill 0.2s;
+}
+.bdmap path:hover {
+  fill: rgb(161, 176, 223);
+  stroke: white;
+  stroke-width: 2px;
+  transition: fill 0.2s;
+  transform: scale(1.003);
+}
+.bd_info_text {
+  display: none;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  position: fixed;
+  z-index: 1;
+}
+.active {
+  display: block;
+}
